@@ -1,0 +1,22 @@
+body {
+    color: #ffffff;
+    padding: 0px;
+}
+html {
+background-color: #000000;
+}
+a{
+color: #8BC7FF;
+}
+.gradientText {
+  background: linear-gradient(to right, #b685ff, #85ebff, #85ffde, #85aeff, #b685ff);
+  background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  animation: gradientAnimation 3s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 200% 50%; }
+  100% { background-position: 0% 50%; }
+}
